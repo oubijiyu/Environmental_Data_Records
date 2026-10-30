@@ -1,0 +1,29 @@
+# Keil build outputs
+Objects/
+Listings/
+*.o
+*.d
+*.crf
+*.axf
+*.dep
+*.lnp
+*.iex
+*.sct
+*.map
+*.lst
+*.hex
+*.build_log.htm
+
+# Keil IDE and local debug state
+*.uvguix.*
+*.uvoptx
+DebugConfig/
+User/DebugConfig/
+User/EventRecorderStub.scvd
+
+# Editors and operating systems
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

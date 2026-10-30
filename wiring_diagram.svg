@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="1800"
+viewBox="0 0 1600 900" role="img" aria-label="STM32F103C8T6 环境数据记录仪接线图">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F8FAFD"/>
+    <stop offset="1" stop-color="#F1F5FA"/>
+  </linearGradient>
+  <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1B3A63"/>
+    <stop offset="1" stop-color="#10233F"/>
+  </linearGradient>
+  <filter id="soft" x="-15%" y="-15%" width="130%" height="140%">
+    <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.065"/>
+  </filter>
+  <filter id="strong" x="-15%" y="-15%" width="130%" height="145%">
+    <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.13"/>
+  </filter>
+  <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+    <circle cx="1.2" cy="1.2" r="1.0" fill="#D8E2EF"/>
+  </pattern>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#dots)" opacity="0.38"/>
+
+<rect x="64" y="34" width="54" height="4" rx="2" fill="#2563EB" stroke="none" stroke-width="0" opacity="1.0"/>
+<rect x="122" y="34" width="18" height="4" rx="2" fill="#D97706" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="64" y="70" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="29" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.3" opacity="1.0">STM32F103C8T6 环境数据记录仪 · 接线图</text>
+<text x="64" y="98" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="12.8" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">DHT11 温湿度 · 光敏光照 · OLED 显示 · W25Q64 记录 · 双按键 · PWM 补光</text>
+<rect x="1160" y="32" width="376" height="72" rx="12" fill="#FFFFFF" stroke="#D7E1ED" stroke-width="1.0" opacity="1.0" filter="url(#soft)"/>
+<text x="1180" y="52" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.2" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">图例</text>
+<line x1="1180" y1="76" x2="1204" y2="76" stroke="#D92D20" stroke-width="2.8" stroke-linecap="round" opacity="1.0"/>
+<text x="1210" y="80" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.8" fill="#64748B" font-weight="600" text-anchor="start" letter-spacing="0" opacity="1.0">电源</text>
+<line x1="1256" y1="66" x2="1256" y2="74" stroke="#3F4652" stroke-width="2.0" stroke-linecap="round" opacity="1.0"/><line x1="1246" y1="74" x2="1266" y2="74" stroke="#3F4652" stroke-width="2.0" stroke-linecap="round" opacity="1.0"/><line x1="1250" y1="79" x2="1262" y2="79" stroke="#3F4652" stroke-width="2.0" stroke-linecap="round" opacity="1.0"/><line x1="1254" y1="84" x2="1258" y2="84" stroke="#3F4652" stroke-width="2.0" stroke-linecap="round" opacity="1.0"/>
+<text x="1272" y="80" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.8" fill="#64748B" font-weight="600" text-anchor="start" letter-spacing="0" opacity="1.0">GND</text>
+<line x1="1322" y1="76" x2="1346" y2="76" stroke="#2563EB" stroke-width="2.6" stroke-linecap="round" opacity="1.0"/>
+<text x="1352" y="80" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.8" fill="#64748B" font-weight="600" text-anchor="start" letter-spacing="0" opacity="1.0">数字信号</text>
+<line x1="1410" y1="76" x2="1434" y2="76" stroke="#D97706" stroke-width="2.6" stroke-linecap="round" opacity="1.0"/>
+<text x="1440" y="80" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.8" fill="#64748B" font-weight="600" text-anchor="start" letter-spacing="0" opacity="1.0">模拟</text>
+<text x="1180" y="96" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="8.2" fill="#94A3B8" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">同名 +3.3V 标签相连 · GND 共地</text>
+<rect x="64" y="158" width="226" height="124" rx="14" fill="#FFFFFF" stroke="#D7E1ED" stroke-width="1.2" opacity="1.0" filter="url(#soft)"/>
+<text x="84" y="190" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="17" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">5V 电源</text>
+<text x="84" y="211" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.4" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">USB 或 5V 适配器（二选一）</text>
+<text x="84" y="236" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#94A3B8" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">经板载稳压为 3.3V</text>
+<text x="270" y="235" font-family="Consolas, Cascadia Mono, monospace" font-size="11" fill="#D92D20" font-weight="700" text-anchor="end" letter-spacing="0" opacity="1.0">5V</text>
+<text x="270" y="265" font-family="Consolas, Cascadia Mono, monospace" font-size="10.5" fill="#3F4652" font-weight="700" text-anchor="end" letter-spacing="0" opacity="1.0">GND</text>
+<circle cx="290" cy="230" r="4.2" fill="#FFFFFF" stroke="#D92D20" stroke-width="2.2"/>
+<line x1="290" y1="230" x2="315" y2="230" stroke="#3F4652" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<circle cx="290" cy="260" r="4.2" fill="#FFFFFF" stroke="#3F4652" stroke-width="2.2"/>
+<line x1="315" y1="260" x2="315" y2="268" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="305" y1="268" x2="325" y2="268" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="309" y1="273" x2="321" y2="273" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="313" y1="278" x2="317" y2="278" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<text x="338" y="222" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#D92D20" font-weight="700" text-anchor="middle" letter-spacing="0" opacity="1.0">5V</text>
+<rect x="64" y="320" width="226" height="200" rx="14" fill="#FFFFFF" stroke="#D7E1ED" stroke-width="1.2" opacity="1.0" filter="url(#soft)"/>
+<text x="84" y="348" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="16.5" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">光照检测</text>
+<rect x="192" y="330" width="42" height="19" rx="9.5" fill="#EEF3FA" stroke="none" stroke-width="1.0" opacity="1.0"/><text x="213.0" y="342.596" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="8.6" fill="#52647C" font-weight="600" text-anchor="middle" letter-spacing="0" opacity="1.0">ADC</text>
+<text x="84" y="367" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.2" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">GL5528 · 10k 分压</text>
+<rect x="149" y="380" width="52" height="21" rx="10.5" fill="#FEF0EF" stroke="#F4B8B2" stroke-width="1.0" opacity="1.0"/><text x="175.0" y="394.172" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.2" fill="#D92D20" font-weight="700" text-anchor="middle" letter-spacing="0" opacity="1.0">+3.3V</text>
+<line x1="175" y1="401" x2="175" y2="410" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<rect x="168" y="410" width="14" height="30" rx="2" fill="#FFFFFF" stroke="#475569" stroke-width="1.3" opacity="1.0"/><text x="189" y="430" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#475569" font-weight="600" text-anchor="start" letter-spacing="0" opacity="1.0">10k</text>
+<line x1="175" y1="440" x2="175" y2="462" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<circle cx="175" cy="462" r="3.2" fill="#D97706" stroke="none" stroke-width="0"/>
+<line x1="175" y1="462" x2="290" y2="462" stroke="#D97706" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<line x1="175" y1="462" x2="175" y2="468" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<rect x="168" y="468" width="14" height="26" rx="2" fill="#FFFFFF" stroke="#475569" stroke-width="1.3" opacity="1.0"/>
+<text x="189" y="485" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#475569" font-weight="600" text-anchor="start" letter-spacing="0" opacity="1.0">LDR</text>
+<line x1="175" y1="494" x2="175" y2="498" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<line x1="175" y1="498" x2="175" y2="506" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="165" y1="506" x2="185" y2="506" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="169" y1="511" x2="181" y2="511" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="173" y1="516" x2="177" y2="516" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<text x="84" y="508" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="8.6" fill="#94A3B8" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">光照↑ → 电压↓</text>
+<circle cx="290" cy="462" r="4.2" fill="#FFFFFF" stroke="#D97706" stroke-width="2.2"/>
+<rect x="64" y="536" width="226" height="140" rx="14" fill="#FFFFFF" stroke="#D7E1ED" stroke-width="1.2" opacity="1.0" filter="url(#soft)"/>
+<text x="84" y="558" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="16.5" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">按键输入</text>
+<rect x="190" y="544" width="46" height="19" rx="9.5" fill="#EEF3FA" stroke="none" stroke-width="1.0" opacity="1.0"/><text x="213.0" y="556.596" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="8.6" fill="#52647C" font-weight="600" text-anchor="middle" letter-spacing="0" opacity="1.0">GPIO</text>
+<text x="84" y="575" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="8.8" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">内部上拉 · 低电平有效</text>
+<text x="84" y="598" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.6" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">K1</text>
+<text x="106" y="598" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">上一条</text>
+<text x="84" y="634" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.6" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">K2</text>
+<text x="106" y="634" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">下一条</text>
+<line x1="180" y1="594" x2="198" y2="594" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/><line x1="224" y1="594" x2="234" y2="594" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/><circle cx="198" cy="594" r="2.4" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/><circle cx="224" cy="594" r="2.4" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/><line x1="198" y1="588" x2="224" y2="588" stroke="#475569" stroke-width="1.6" stroke-linecap="round" opacity="1.0"/><line x1="211" y1="580" x2="211" y2="588" stroke="#475569" stroke-width="1.6" stroke-linecap="round" opacity="1.0"/><line x1="203" y1="580" x2="219" y2="580" stroke="#475569" stroke-width="1.6" stroke-linecap="round" opacity="1.0"/>
+<line x1="180" y1="630" x2="198" y2="630" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/><line x1="224" y1="630" x2="234" y2="630" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/><circle cx="198" cy="630" r="2.4" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/><circle cx="224" cy="630" r="2.4" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/><line x1="198" y1="624" x2="224" y2="624" stroke="#475569" stroke-width="1.6" stroke-linecap="round" opacity="1.0"/><line x1="211" y1="616" x2="211" y2="624" stroke="#475569" stroke-width="1.6" stroke-linecap="round" opacity="1.0"/><line x1="203" y1="616" x2="219" y2="616" stroke="#475569" stroke-width="1.6" stroke-linecap="round" opacity="1.0"/>
+<line x1="180" y1="594" x2="166" y2="594" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<line x1="180" y1="630" x2="166" y2="630" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<line x1="166" y1="594" x2="166" y2="652" stroke="#3F4652" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<circle cx="166" cy="630" r="3.0" fill="#3F4652" stroke="none" stroke-width="0"/>
+<line x1="166" y1="652" x2="166" y2="660" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="156" y1="660" x2="176" y2="660" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="160" y1="665" x2="172" y2="665" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="164" y1="670" x2="168" y2="670" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<line x1="234" y1="594" x2="290" y2="594" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<line x1="234" y1="630" x2="290" y2="630" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<circle cx="290" cy="594" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<circle cx="290" cy="630" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<rect x="64" y="692" width="226" height="120" rx="14" fill="#FFFFFF" stroke="#D7E1ED" stroke-width="1.2" opacity="1.0" filter="url(#soft)"/>
+<text x="84" y="718" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="16.5" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">补光 LED</text>
+<rect x="196" y="704" width="44" height="19" rx="9.5" fill="#EEF3FA" stroke="none" stroke-width="1.0" opacity="1.0"/><text x="218.0" y="716.596" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="8.6" fill="#52647C" font-weight="600" text-anchor="middle" letter-spacing="0" opacity="1.0">PWM</text>
+<text x="84" y="736" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.2" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">PA8 · 小功率 LED · 330Ω</text>
+<line x1="290" y1="760" x2="228" y2="760" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<rect x="198" y="753" width="30" height="14" rx="2" fill="#FFFFFF" stroke="#475569" stroke-width="1.3" opacity="1.0"/><text x="213.0" y="748" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#475569" font-weight="600" text-anchor="middle" letter-spacing="0" opacity="1.0">330Ω</text>
+<line x1="198" y1="760" x2="184" y2="760" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<polygon points="184,751 184,769 162,760" fill="#FDE68A" stroke="#B45309" stroke-width="1.4"/>
+<line x1="160" y1="749" x2="160" y2="771" stroke="#B45309" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<line x1="160" y1="760" x2="143" y2="760" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<line x1="143" y1="760" x2="143" y2="768" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="133" y1="768" x2="153" y2="768" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="137" y1="773" x2="149" y2="773" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="141" y1="778" x2="145" y2="778" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<circle cx="290" cy="760" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<rect x="1180" y="158" width="270" height="172" rx="14" fill="#FFFFFF" stroke="#D7E1ED" stroke-width="1.2" opacity="1.0" filter="url(#soft)"/>
+<text x="1200" y="194" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="21" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.2" opacity="1.0">DHT11</text><rect x="1350" y="174" width="48" height="19" rx="9.5" fill="#EEF3FA" stroke="none" stroke-width="1.0" opacity="1.0"/><text x="1374.0" y="186.596" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="8.6" fill="#52647C" font-weight="600" text-anchor="middle" letter-spacing="0" opacity="1.0">单总线</text><text x="1200" y="215" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">温湿度传感器 · 单总线</text>
+<text x="1194" y="274" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.2" opacity="1.0">DATA</text>
+<text x="1436" y="229" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0.2" opacity="1.0">VCC</text>
+<text x="1436" y="309" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0.2" opacity="1.0">GND</text>
+<text x="1200" y="300" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="8.6" fill="#94A3B8" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">DATA 需上拉</text>
+<circle cx="1180" cy="270" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<circle cx="1450" cy="225" r="4.2" fill="#FFFFFF" stroke="#D92D20" stroke-width="2.2"/>
+<circle cx="1450" cy="305" r="4.2" fill="#FFFFFF" stroke="#3F4652" stroke-width="2.2"/>
+<line x1="1450" y1="225" x2="1466" y2="225" stroke="#D92D20" stroke-width="2.5" stroke-linecap="round" opacity="1.0"/>
+<rect x="1466" y="214" width="54" height="22" rx="11.0" fill="#FEF0EF" stroke="#F4B8B2" stroke-width="1.0" opacity="1.0"/><text x="1493.0" y="228.672" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.2" fill="#D92D20" font-weight="700" text-anchor="middle" letter-spacing="0" opacity="1.0">+3.3V</text>
+<line x1="1450" y1="305" x2="1470" y2="305" stroke="#3F4652" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<line x1="1470" y1="305" x2="1470" y2="313" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="1460" y1="313" x2="1480" y2="313" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="1464" y1="318" x2="1476" y2="318" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="1468" y1="323" x2="1472" y2="323" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 1040 350 L 1092.0 350.0 Q 1100.0 350.0 1100.0 342.0 L 1100.0 278.0 Q 1100.0 270.0 1108.0 270.0 L 1180 270" fill="none" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1120" y1="270" x2="1120" y2="252" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<circle cx="1120" cy="270" r="3.0" fill="#2563EB" stroke="none" stroke-width="0"/>
+<rect x="1113" y="224" width="14" height="28" rx="2" fill="#FFFFFF" stroke="#475569" stroke-width="1.3" opacity="1.0"/><text x="1134" y="242" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#475569" font-weight="600" text-anchor="start" letter-spacing="0" opacity="1.0">10k</text>
+<line x1="1120" y1="224" x2="1120" y2="206" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<rect x="1094" y="184" width="52" height="22" rx="11.0" fill="#FEF0EF" stroke="#F4B8B2" stroke-width="1.0" opacity="1.0"/><text x="1120.0" y="198.672" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.2" fill="#D92D20" font-weight="700" text-anchor="middle" letter-spacing="0" opacity="1.0">+3.3V</text>
+<rect x="1180" y="388" width="270" height="144" rx="14" fill="#FFFFFF" stroke="#D7E1ED" stroke-width="1.2" opacity="1.0" filter="url(#soft)"/>
+<text x="1200" y="420" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="19" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.2" opacity="1.0">0.96″ OLED</text><rect x="1350" y="400" width="36.2" height="19" rx="9.5" fill="#EEF3FA" stroke="none" stroke-width="1.0" opacity="1.0"/><text x="1368.1" y="412.596" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="8.6" fill="#52647C" font-weight="600" text-anchor="middle" letter-spacing="0" opacity="1.0">I²C</text><text x="1200" y="441" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">SSD1306 · 软件 I²C · 0x78</text>
+<text x="1194" y="474" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.2" opacity="1.0">SCL</text>
+<text x="1194" y="514" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.2" opacity="1.0">SDA</text>
+<text x="1436" y="444" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0.2" opacity="1.0">VCC</text>
+<text x="1436" y="499" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0.2" opacity="1.0">GND</text>
+<circle cx="1180" cy="470" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<circle cx="1180" cy="510" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<circle cx="1450" cy="440" r="4.2" fill="#FFFFFF" stroke="#D92D20" stroke-width="2.2"/>
+<circle cx="1450" cy="495" r="4.2" fill="#FFFFFF" stroke="#3F4652" stroke-width="2.2"/>
+<line x1="1450" y1="440" x2="1466" y2="440" stroke="#D92D20" stroke-width="2.5" stroke-linecap="round" opacity="1.0"/>
+<rect x="1466" y="429" width="54" height="22" rx="11.0" fill="#FEF0EF" stroke="#F4B8B2" stroke-width="1.0" opacity="1.0"/><text x="1493.0" y="443.672" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.2" fill="#D92D20" font-weight="700" text-anchor="middle" letter-spacing="0" opacity="1.0">+3.3V</text>
+<line x1="1450" y1="495" x2="1470" y2="495" stroke="#3F4652" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<line x1="1470" y1="495" x2="1470" y2="503" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="1460" y1="503" x2="1480" y2="503" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="1464" y1="508" x2="1476" y2="508" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="1468" y1="513" x2="1472" y2="513" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<rect x="1180" y="548" width="270" height="184" rx="14" fill="#FFFFFF" stroke="#D7E1ED" stroke-width="1.2" opacity="1.0" filter="url(#soft)"/>
+<text x="1200" y="578" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="20" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.2" opacity="1.0">W25Q64</text><rect x="1350" y="558" width="36.2" height="19" rx="9.5" fill="#EEF3FA" stroke="none" stroke-width="1.0" opacity="1.0"/><text x="1368.1" y="570.596" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="8.6" fill="#52647C" font-weight="600" text-anchor="middle" letter-spacing="0" opacity="1.0">SPI</text><text x="1200" y="599" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">8 MB SPI Flash · 3.3V</text>
+<text x="1194" y="622" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.2" opacity="1.0">CS</text>
+<text x="1194" y="652" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.2" opacity="1.0">CLK</text>
+<text x="1194" y="682" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.2" opacity="1.0">DI</text>
+<text x="1194" y="712" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0.2" opacity="1.0">DO</text>
+<text x="1436" y="608" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0.2" opacity="1.0">VCC</text>
+<text x="1436" y="678" font-family="Consolas, Cascadia Mono, monospace" font-size="11.0" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0.2" opacity="1.0">GND</text>
+<circle cx="1180" cy="618" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<circle cx="1180" cy="648" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<circle cx="1180" cy="678" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<circle cx="1180" cy="708" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<circle cx="1450" cy="604" r="4.2" fill="#FFFFFF" stroke="#D92D20" stroke-width="2.2"/>
+<circle cx="1450" cy="674" r="4.2" fill="#FFFFFF" stroke="#3F4652" stroke-width="2.2"/>
+<line x1="1450" y1="604" x2="1466" y2="604" stroke="#D92D20" stroke-width="2.5" stroke-linecap="round" opacity="1.0"/>
+<rect x="1466" y="593" width="54" height="22" rx="11.0" fill="#FEF0EF" stroke="#F4B8B2" stroke-width="1.0" opacity="1.0"/><text x="1493.0" y="607.672" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.2" fill="#D92D20" font-weight="700" text-anchor="middle" letter-spacing="0" opacity="1.0">+3.3V</text>
+<line x1="1450" y1="674" x2="1470" y2="674" stroke="#3F4652" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<line x1="1470" y1="674" x2="1470" y2="682" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="1460" y1="682" x2="1480" y2="682" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="1464" y1="687" x2="1476" y2="687" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="1468" y1="692" x2="1472" y2="692" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<rect x="560" y="220" width="480" height="510" rx="16" fill="#FBFDFF" stroke="#C9D6E6" stroke-width="1.4" opacity="1.0" filter="url(#strong)"/>
+<path d="M 576 220 H 1024 Q 1040 220 1040 236 V 296 H 560 V 236 Q 560 220 576 220 Z"
+ fill="url(#hdr)"/>
+<text x="584" y="253" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="25" fill="#FFFFFF" font-weight="700" text-anchor="start" letter-spacing="0.5" opacity="1.0">STM32F103C8T6</text>
+<text x="584" y="279" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="11.2" fill="#A9C1DE" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">Cortex-M3 · 72 MHz · 3.3 V 逻辑</text>
+<rect x="936" y="233" width="82" height="24" rx="12" fill="none" stroke="#41618B" stroke-width="1.0" opacity="1.0"/>
+<text x="977" y="249" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.6" fill="#C6D8EF" font-weight="600" text-anchor="middle" letter-spacing="0" opacity="1.0">最小系统板</text>
+<circle cx="560" cy="342" r="4.2" fill="#FFFFFF" stroke="#D92D20" stroke-width="2.2"/>
+<text x="582" y="347" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">5V</text>
+<text x="640" y="346.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">5V 输入</text>
+<circle cx="560" cy="382" r="4.2" fill="#FFFFFF" stroke="#D92D20" stroke-width="2.2"/>
+<text x="582" y="387" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">3V3</text>
+<text x="640" y="386.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">3.3V 输出</text>
+<circle cx="560" cy="422" r="4.2" fill="#FFFFFF" stroke="#3F4652" stroke-width="2.2"/>
+<text x="582" y="427" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">GND</text>
+<text x="640" y="426.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">公共地</text>
+<circle cx="560" cy="462" r="4.2" fill="#FFFFFF" stroke="#D97706" stroke-width="2.2"/>
+<text x="582" y="467" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">PA0</text>
+<text x="640" y="466.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">ADC1_IN0 · 光照</text>
+<circle cx="560" cy="594" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<text x="582" y="599" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">PB12</text>
+<text x="640" y="598.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">按键 K1</text>
+<circle cx="560" cy="630" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<text x="582" y="635" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">PB13</text>
+<text x="640" y="634.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">按键 K2</text>
+<circle cx="560" cy="668" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<text x="582" y="673" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1.0">PA8</text>
+<text x="640" y="672.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">TIM1_CH1 · PWM</text>
+<circle cx="1040" cy="350" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<text x="1018" y="355" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0" opacity="1.0">PB8</text>
+<text x="956" y="354.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="end" letter-spacing="0" opacity="1.0">DHT11 DATA</text>
+<circle cx="1040" cy="470" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<text x="1018" y="475" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0" opacity="1.0">PB6</text>
+<text x="956" y="474.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="end" letter-spacing="0" opacity="1.0">OLED SCL</text>
+<circle cx="1040" cy="510" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<text x="1018" y="515" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0" opacity="1.0">PB7</text>
+<text x="956" y="514.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="end" letter-spacing="0" opacity="1.0">OLED SDA</text>
+<circle cx="1040" cy="618" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<text x="1018" y="623" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0" opacity="1.0">PA4</text>
+<text x="956" y="622.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="end" letter-spacing="0" opacity="1.0">W25Q64 CS</text>
+<circle cx="1040" cy="648" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<text x="1018" y="653" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0" opacity="1.0">PA5</text>
+<text x="956" y="652.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="end" letter-spacing="0" opacity="1.0">W25Q64 CLK</text>
+<circle cx="1040" cy="678" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<text x="1018" y="683" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0" opacity="1.0">PA6</text>
+<text x="956" y="682.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="end" letter-spacing="0" opacity="1.0">W25Q64 DI</text>
+<circle cx="1040" cy="708" r="4.2" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+<text x="1018" y="713" font-family="Consolas, Cascadia Mono, monospace" font-size="14.2" fill="#0F172A" font-weight="700" text-anchor="end" letter-spacing="0" opacity="1.0">PA7</text>
+<text x="956" y="712.5" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.0" fill="#64748B" font-weight="400" text-anchor="end" letter-spacing="0" opacity="1.0">W25Q64 DO</text>
+<line x1="560" y1="382" x2="516" y2="382" stroke="#D92D20" stroke-width="2.5" stroke-linecap="round" opacity="1.0"/>
+<rect x="462" y="371" width="54" height="22" rx="11.0" fill="#FEF0EF" stroke="#F4B8B2" stroke-width="1.0" opacity="1.0"/><text x="489.0" y="385.672" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.2" fill="#D92D20" font-weight="700" text-anchor="middle" letter-spacing="0" opacity="1.0">+3.3V</text>
+<line x1="560" y1="422" x2="525" y2="422" stroke="#3F4652" stroke-width="2.3" stroke-linecap="round" opacity="1.0"/>
+<line x1="525" y1="422" x2="525" y2="430" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="515" y1="430" x2="535" y2="430" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="519" y1="435" x2="531" y2="435" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/><line x1="523" y1="440" x2="527" y2="440" stroke="#3F4652" stroke-width="2.2" stroke-linecap="round" opacity="1.0"/>
+<path d="M 290 230 L 422.0 230.0 Q 430.0 230.0 430.0 238.0 L 430.0 334.0 Q 430.0 342.0 438.0 342.0 L 560 342" fill="none" stroke="#D92D20" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 290 462 L 560 462" fill="none" stroke="#D97706" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 290 594 L 560 594" fill="none" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 290 630 L 560 630" fill="none" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 560 668 L 428.0 668.0 Q 420.0 668.0 420.0 676.0 L 420.0 752.0 Q 420.0 760.0 412.0 760.0 L 290 760" fill="none" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1040 470 L 1180 470" fill="none" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1040 510 L 1180 510" fill="none" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1040 618 L 1180 618" fill="none" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1040 648 L 1180 648" fill="none" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1040 678 L 1180 678" fill="none" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1040 708 L 1180 708" fill="none" stroke="#2563EB" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="64" y="824" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="9.2" fill="#94A3B8" font-weight="400" text-anchor="start" letter-spacing="0" opacity="1.0">依据工程源码：USER/main.c · HARDWARE/OLED/OLED.c · W25Q64.c · KEY/key.c</text>
+<text x="1536" y="824" font-family="Consolas, Cascadia Mono, monospace" font-size="9.2" fill="#94A3B8" font-weight="600" text-anchor="end" letter-spacing="1.0" opacity="1.0">REV 1.0</text>
+<line x1="64" y1="838" x2="1536" y2="838" stroke="#DCE4EE" stroke-width="1.0" stroke-linecap="round" opacity="1.0"/>
+<text x="64" y="858" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.2" fill="#64748B">① DHT11 按 <tspan fill="#B42318" font-weight="700">main.c</tspan> 接 <tspan fill="#B42318" font-weight="700">PB8</tspan>（DHT11.c 的 PB14 未调用），DATA 加 4.7k–10k 上拉；② W25Q64 的 /CS、/WP、/HOLD 各 10k 上拉；③ OLED、Flash 就近加 100nF 去耦。</text>
+<text x="64" y="880" font-family="Microsoft YaHei, Microsoft YaHei UI, Segoe UI, sans-serif" font-size="10.2" fill="#64748B">④ 外设全部 3.3V，严禁接 5V；所有 GND 共地。OLED 裸屏 SCL/SDA 各加 4.7k 上拉；引脚位置以实物丝印为准；调试经板载 SWD（PA13/PA14）接 ST-Link。</text>
+</svg>
